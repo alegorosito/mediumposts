@@ -7,6 +7,6 @@ This plugin include a Widget that can be used in a Sidebar and a pair of Shortco
 Shortcodes:
 ----------
 
-1) To display a list of articles: [mediumposts]
+1) To display a list of articles (up to 100): [mediumposts]
 
-2) To display a pre-formated list of articles: [mediumposts_preformated]
+2) To display a pre-formated list of articles (4 articles): [mediumposts_preformated]

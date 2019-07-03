@@ -68,9 +68,9 @@ Author URI: https://alegorosito.com
 			$xml = simplexml_load_file($xmlString);
 
 
-			/*
-			* Retrieve 1th article
-			*/
+				/*
+				* Retrieve 1th article
+				*/
 				$i = 0;
 				$posts = "";
 				$posts.= '<div class="row">';
@@ -97,7 +97,7 @@ Author URI: https://alegorosito.com
 						$posts.= '</div>';
 					}
 					
-					if (++$i == $mediumnposts) break;
+					if (++$i == 4) break;
 				
 				}
 				$posts.= '</div>';
@@ -146,14 +146,14 @@ Author URI: https://alegorosito.com
 						<input type="text" name="mediumaccount" value="<?php print $mediumaccount ?>" placeholder="medium user i.e. bloomberg">
 						<br>
 						<label for="nposts" class="mp_label">Number of posts:</label>
-						<input type="number" name="nposts" value="<?php print $mediumnposts ?>" min="1" max="4">
+						<input type="number" name="nposts" value="<?php print $mediumnposts ?>" min="1" max="100">
 						<br>
 						<input type="submit" name="submit_medium_update" class="button button-primary" value="UPDATE VALUES">
 					</form>
 					<br>
 					<h2>Shortcodes</h2>
-					<p>Display a list of articles: <strong> [mediumposts] </strong></p>
-					<p>Display a pre-formated list of articles: <strong> [mediumposts_preformated] </strong></p>
+					<p>Display a list of articles (up to 100): <strong> [mediumposts] </strong></p>
+					<p>Display a pre-formated list of articles (4 articles): <strong> [mediumposts_preformated] </strong></p>
 			</div>
 		<?php 
 	}
