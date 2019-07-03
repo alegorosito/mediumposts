@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Medium Posts
-Plugin URI: https://alegorosito.com
+Plugin URI: https://github.com/alegorosito/mediumposts
 Description: Retreive the lasts posts of medium
 Version: 1.0.0
 Author: Alejandro Gabriel Gorosito
