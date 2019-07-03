@@ -1,0 +1,100 @@
+/*
+* Grid 
+*/
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+}
+
+.col-1 {
+  grid-column: span 1;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+.col-3 {
+  grid-column: span 3;
+}
+
+.col-4 {
+  grid-column: span 4;
+}
+
+
+.col-5 {
+  grid-column: span 5;
+}
+
+
+.col-6 {
+  grid-column: span 6;
+}
+
+
+.col-7 {
+  grid-column: span 7;
+}
+
+
+.col-8 {
+  grid-column: span 8;
+}
+
+.col-9 {
+  grid-column: span 9;
+}
+
+.col-10 {
+  grid-column: span 10;
+}
+
+/* And similarly for 5, 6, 7, etc, up to 12 */
+
+/*
+* End Grid
+*/
+
+.mp_mediumpost_article {
+	width: 800px;
+}
+
+
+div#mp_article_1 {
+    float: left;
+    width: 239px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+div#mp_pre_formated_1 div.medium-feed-item p.medium-feed-snippet {
+	display: none;
+}
+
+div#mp_pre_formated_1 div.medium-feed-item p.medium-feed-link {
+	display: none;
+}
+
+div#mp_pre_formated_2 div.medium-feed-item p.medium-feed-snippet {
+	display: none;
+}
+
+div#mp_pre_formated_2 div.medium-feed-item p.medium-feed-link {
+	display: none;
+}
+
+div#mp_pre_formated_3 div.medium-feed-item p.medium-feed-snippet {
+	display: none;
+}
+
+div#mp_pre_formated_3 div.medium-feed-item p.medium-feed-link {
+	display: none;
+}
+
+.mp_pre_formated_secondary {
+	font-size: 13px;
+}
